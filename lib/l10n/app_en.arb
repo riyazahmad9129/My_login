@@ -1,31 +1,31 @@
 {
-  "Language": "English",
+  "language": "English",
   "@language": {
     "description": "for current language"
   },
 
-  "login Here": "Login Here",
-  "@login here": {
+  "loginhere": "loginhere",
+  "@loginhere": {
     "description": "for login"
   },
 
-  "username": "Username",
+  "username": "username",
   "@username": {
     "description": "for username"
   },
 
-  "password": "Password",
+  "password": "password",
   "@password": {
     "description": "for user password"
   },
 
-  "login": "Login",
+  "login": "login",
   "@login": {
     "description": "for login"
   },
 
-  "change language": "Change Language",
-  "@change language": {
+  "changelanguage": "change language",
+  "@changelanguage": {
     "description": "for change language"
   }
 

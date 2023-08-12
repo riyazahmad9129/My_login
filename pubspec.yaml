@@ -43,6 +43,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: any
+  gap: ^3.0.1
 
 dev_dependencies:
   flutter_test:
@@ -69,15 +70,14 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-      - lib/assets/login1.jpg
-      - lib/assets/login2.jpg
-      - lib/assets/login3.jpg
-      - lib/assets/login4.jpg
-      - lib/assets/login5.webp
-      - lib/assets/car.jpg
-      - lib/assets/nl.jpg
-      - lib/assets/login6.jpg
 
+      - lib/assets/nl.jpg
+      - lib/assets/homepage.jpg
+      - lib/assets/fb_logo.jpg
+      - lib/assets/Facebook-logo.png
+      - lib/assets/google_logo.png
+      - lib/assets/home1.jpg
+      - lib/assets/twitter_logo.png
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

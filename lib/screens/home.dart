@@ -2,7 +2,7 @@ import 'package:blur/blur.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:my_login/components/my_textfield.dart';
-import 'package:my_login/provider/login.dart';
+import 'package:my_login/provider/password_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 

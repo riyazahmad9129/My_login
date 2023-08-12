@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:my_login/my_theme/theme.dart';
 
 class MyTextField extends StatelessWidget {
   final TextEditingController? controller;
   final String? hintText;
+
   final keyboardType;
   final textInputAction;
   final BorderRadius? borderRadius;
@@ -32,24 +34,22 @@ class MyTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 25.0, vertical: 10),
+      padding: const EdgeInsets.symmetric(horizontal: 0.2),
       child: TextFormField(
         textInputAction: TextInputAction.next,
         obscureText: obscureText,
         validator: validator,
         decoration: InputDecoration(
+          border: const UnderlineInputBorder(
+            borderSide: BorderSide(color: MyColors.primary, width: 1),
+          ),
+          focusColor: Colors.blue,
+          focusedBorder: const UnderlineInputBorder(
+            borderSide: BorderSide(color: MyColors.primary, width: 1),
+          ),
           hintText: hintText,
-          hintStyle: TextStyle(color: Colors.black45),
           suffixIcon: suffixIcon,
-          contentPadding: const EdgeInsets.only(left: 15),
-          border: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(12),
-            borderSide: const BorderSide(color: Colors.white, width: 0.1),
-          ),
-          disabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(12),
-            borderSide: const BorderSide(color: Colors.white, width: 0.1),
-          ),
+          contentPadding: const EdgeInsets.only(left: 15, top: 15),
         ),
       ),
     );

@@ -1,9 +1,9 @@
 {
   "language" : "हिंदी",
 
-  "login here" : "यहां लॉगिन करें",
+  "loginhere" : "यहां लॉगिन करें",
   "username" : "उपयोगकर्ता नाम",
   "password" : "पासवर्ड",
   "login" : "लॉग इन करें",
-  "change language" : "भाषा बदले"
+  "changelanguage" : "भाषा बदले"
 }
